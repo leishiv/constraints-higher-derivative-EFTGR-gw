@@ -1,0 +1,4 @@
+data/posterior_samples/*.json -text -diff
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf

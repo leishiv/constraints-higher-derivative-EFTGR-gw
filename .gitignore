@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.venv/
+output/
+PEDataRelease/
+/strain
+/psds
+*.h5
+*.hdf5
+*.gwf
+*.pickle
+*.log
+*.part
+
+# Keep external PSD arrays out of the publication bundle.
+*_psd_*.txt
+
+# Bilby creates this cache when building the likelihood.
+.distance_marginalization_lookup*.npz
