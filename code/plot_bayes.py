@@ -136,7 +136,7 @@ ax.set(
     xscale="log",
     yscale="log",
     xlabel="frequency [Hz]",
-    ylabel=r"$|\delta\Psi_{22}|$ [rad]",
+    ylabel=r"$|Q_{22}|$ [rad]",
 )
 ax.legend()
 ax.grid(alpha=0.3)
