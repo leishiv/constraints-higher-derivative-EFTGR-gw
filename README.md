@@ -2,6 +2,26 @@
 
 This project uses gravitational-wave data to constrain cubic and quartic curvature corrections to general relativity. The corresponding 5PN, 6PN and 8PN phase corrections are added to the SEOBNRv5HM_ROM waveform using the flexible theory-independent (FTI) method. Fisher calculations rank 92 selected binary black hole events by their expected bounds on three characteristic length scales. A Bayesian analysis of GW230627_015337, the event with the tightest Fisher bounds, estimates the couplings and compares each model with general relativity.
 
+## Paper
+
+This repository accompanies the paper:
+
+Tao Zhu, [Improved constraints on higher-derivative effective field theory extensions of general relativity with GW230627_015337](https://arxiv.org/abs/2610.36728), arXiv:2610.36728 [gr-qc] (2026).
+
+If you use this code or the supplied results, please cite the paper:
+
+```bibtex
+@article{Zhu2026EFT,
+  author = {Zhu, Tao},
+  title = {Improved constraints on higher-derivative effective field theory extensions of general relativity with GW230627_015337},
+  year = {2026},
+  eprint = {2610.36728},
+  archivePrefix = {arXiv},
+  primaryClass = {gr-qc},
+  url = {https://arxiv.org/abs/2610.36728}
+}
+```
+
 ## Files
 
 - `code/fisher.py`: calculate Fisher bounds and rank the 92 events.
